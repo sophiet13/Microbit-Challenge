@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>micro:bit Challenge</title>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<img class="img-responsive" src="images/header.png"> 
+				</div>
+		</div>	
+		<div class="row">
+			<div class="col-sm-9">
+				<h2>3-hour micro:bit challenge</h2>
+				<h4>The Challenge: create a programme for the micro:bit and write about it in 3-hours</h4>
+				<p>
+					At first, I really didn't know where to begin. I mean, I hadn't even seen a micro:bit before, let alone created a programme for one!
+				</p>
+				<p>
+					However, I had already reached this stage and had committed to completing the challenge. So, after panicking about what I couldn't do I actually began by looking up the micro:bit online and seeing what type of things I could programme - there were way more things than I expected; from games like "Rock Paper Scissors" to pH probes for science experiments. 
+				</p>
+				<h4>What I decided</h4>
+				<p>
+					I was excited by the possibilities of what I could create and wanted to re-create "snake". However, I quickly realised that, with the 3-hour time limit and my limited coding experience, this was beyond my capabilities. In the end, I decided to programme a Magic 8 ball as it seemed challenging-yet-achievable. 
+				</p>
+				<h4>Programming the Game</h4>	
+				<p>
+					<p>
+						Again, I began by searching online to figure out how to programme the Magic 8 ball game and, luckily, managed to find a <a href="https://microbit.org/en/2017-03-07-magic-eight/">guide</a> online. After reading the guide, the Magic 8 game seemed much more attainable than "snake" and I began.
+					</p>
+					<p>
+						The first task was to set up the "start" to prompt the player to ask a question.
+						<img class="rounded padded img-responsive " src="images/code_1.png">
+					</p>
+				
+					<p>
+					Next, I selected the input "on shake" to instruct the micro:bit to respond to shaking. After this, I set a variable (named "Random") to pick a number 1 to 6 and used an "if" function to give different responses depending on the random number selected.
+					<img class="rounded padded img-responsive" src="images/code_2.png">
+					</p>
+					<p>
+						After this, the Magic 8 ball was complete. However, I still had some time left. So, I decided to add some animation to mimic "thinking" about the answer. 
+						<p>This was probably the most challenging part as it wasn't included in the guide.</p>
+						<p>First, I decided that I wanted to create an ellipsis kind of thinking gesture and programmed the micro:bit to "plot" a dot at (1,2) on the screen. Next, I added a "pause" for 500 ms, then added a second dot (and a pause), and then the third dot (and a pause). Rather than programming the dots again, I used the "repeat" function to repeat the motion 3 times and the thinking gesture was complete!</p>	
+						<img class="rounded padded img-responsive" src="images/code_3.png">
+
+						<p>I also added a little surprise for anyone accidentally drops (or purposely throws) the game just for fun...
+						<img class="rounded padded img-responsive" src="images/code_4.png"></p>
+					</p>
+				</p>	
+				<h4>The Overall Experience</h4>	
+				<p>
+					Overall, I really enjoyed learning more about the micro:bit and programming the game in the <a href="https://makecode.microbit.org/#">MakeCode Editor</a> (it was much easier to use that I expected)!
+				</p>	
+				<p>
+					I am grateful for what I have learned and glad that I completed the challenge, despite my initial fears!
+				</p>
+				</div>
+			<div class="col-sm-3">
+				<img class="img-responsive" src="images/microbit.png">
+				<h3>About Me</h3>
+				<p>
+					I am a third-year Chemcial Engineering student at the Univeristy of Bath and I am currently exploring what can be done with the micro:bit. Let the adventures begin...
+				</p>
+			</div>
+		</div>
+		</div>
+
+	</div>
+</body>
+</html>
